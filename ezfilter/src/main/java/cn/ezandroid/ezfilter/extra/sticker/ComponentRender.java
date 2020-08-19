@@ -224,6 +224,8 @@ public class ComponentRender {
             GLES20.glDeleteTextures(1, tex, 0);
             mTexture = 0;
         }
+        mLastIndex = -1;
+        mStartTime = -1;
     }
 
     private PointF getRotateVertices(PointF point, PointF anchorPoint, double angle) {
