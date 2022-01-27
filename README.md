@@ -5,8 +5,6 @@ A lightweight (<180KB), easy-to-extend Android filter and dynamic sticker framew
 
 [中文](README-CN.md)
 
-[ ![Download](https://api.bintray.com/packages/uestccokey/maven/EZFilter/images/download.svg) ](https://bintray.com/uestccokey/maven/EZFilter/_latestVersion)
-
 ### Demo
 
 [Download](https://raw.githubusercontent.com/uestccokey/EZFilter/develop/demo.apk)
@@ -26,24 +24,6 @@ A lightweight (<180KB), easy-to-extend Android filter and dynamic sticker framew
 4.Support screenshot
 
 5.Support offscreen rendering
-
-### Usage
-
-#### Gradle
-``` gradle
-android {
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-}
-
-dependencies {
-    compile 'cn.ezandroid:EZFilter:x.x.x' // Gradle version < 3.0
-    // or
-    implementation 'cn.ezandroid:EZFilter:x.x.x' // Gradle version >= 3.0
-}
-```
 
 #### Sample
 
@@ -98,5 +78,5 @@ mPipeline.output(new BitmapOutput.BitmapOutputCallback() {
     }, width, height, true);
 view.requestRender();
 ```
-Other functions, such as recording videos, adding dynamic stickers, etc., please refer to demo.
+Other functions, such as recording videos, adding dynamic stickers, particle effects, etc., please refer to demo.
 

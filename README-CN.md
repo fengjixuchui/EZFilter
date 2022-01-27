@@ -5,8 +5,6 @@
 
 [English](README.md)
 
-[ ![Download](https://api.bintray.com/packages/uestccokey/maven/EZFilter/images/download.svg) ](https://bintray.com/uestccokey/maven/EZFilter/_latestVersion)
-
 ### Demo
 
 [下载地址](https://raw.githubusercontent.com/uestccokey/EZFilter/develop/demo.apk)
@@ -26,25 +24,6 @@
 4.支持截图
 
 5.支持离屏渲染
-
-### 使用
-
-#### Gradle
-
-``` gradle
-android {
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-}
-
-dependencies {
-    compile 'cn.ezandroid:EZFilter:x.x.x' // Gradle 3.0以下
-    // 或者
-    implementation 'cn.ezandroid:EZFilter:x.x.x' // Gradle3.0及以上
-}
-```
 
 #### 示例
 
@@ -99,6 +78,6 @@ mPipeline.output(new BitmapOutput.BitmapOutputCallback() {
     }, width, height, true);
 view.requestRender();
 ```
-其他功能，如录制视频，添加动态贴纸等，请参考Demo工程。
+其他功能，如录制视频，添加动态贴纸，粒子特效等，请参考Demo工程。
 
 
